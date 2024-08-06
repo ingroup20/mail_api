@@ -1,0 +1,25 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: chuckwang@gateweb.com.tw
+    password:
+
+
+    properties:
+      mail:
+        smtp:
+          auth: true
+
+#          注意是starttls
+          starttls:
+            enable: true
+            required: true
+
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
+
+mail:
+  from: chuckwang@gateweb.com.tw
+  name: chuckwang
